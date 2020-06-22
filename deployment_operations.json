@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/e2d166cb-0ecb-4d79-92eb-d8545d32ce66/resourceGroups/metabasedocker/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-0e21e8f7-b578/operations/94EDA76FBB040BBC",
+    "operationId": "94EDA76FBB040BBC",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-06-22T01:38:30.5255091Z",
+      "duration": "PT21.7390589S",
+      "trackingId": "01b6af14-ee87-4171-af46-ddb4a78fb835",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e2d166cb-0ecb-4d79-92eb-d8545d32ce66/resourceGroups/metabasedocker/providers/Microsoft.Web/sites/metabaseenviroment",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "metabaseenviroment"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e2d166cb-0ecb-4d79-92eb-d8545d32ce66/resourceGroups/metabasedocker/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-0e21e8f7-b578/operations/08586088169986320351",
+    "operationId": "08586088169986320351",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-06-22T01:38:30.7564704Z",
+      "duration": "PT0.1400641S",
+      "trackingId": "d2dca43f-af82-4b90-bb4a-1ce804646662",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

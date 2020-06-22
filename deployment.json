@@ -1,0 +1,89 @@
+{
+  "id": "/subscriptions/e2d166cb-0ecb-4d79-92eb-d8545d32ce66/resourceGroups/metabasedocker/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-0e21e8f7-b578",
+  "name": "Microsoft.Web-WebApp-Portal-0e21e8f7-b578",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/e2d166cb-0ecb-4d79-92eb-d8545d32ce66/resourcegroups/metabasedocker/providers/Microsoft.Web/sites/metabaseenviroment",
+    "marketplaceItemId": "Microsoft.WebSite"
+  },
+  "properties": {
+    "templateHash": "5869136438082406886",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "e2d166cb-0ecb-4d79-92eb-d8545d32ce66"
+      },
+      "name": {
+        "type": "String",
+        "value": "metabaseenviroment"
+      },
+      "location": {
+        "type": "String",
+        "value": "Central US"
+      },
+      "hostingEnvironment": {
+        "type": "String",
+        "value": ""
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-metabasedocker-973b"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "metabasedocker"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": true
+      },
+      "linuxFxVersion": {
+        "type": "String",
+        "value": "DOCKER|metabase/metabse"
+      },
+      "dockerRegistryUrl": {
+        "type": "String",
+        "value": "https://index.docker.io"
+      },
+      "dockerRegistryUsername": {
+        "type": "String",
+        "value": ""
+      },
+      "dockerRegistryPassword": {
+        "type": "SecureString"
+      },
+      "dockerRegistryStartupCommand": {
+        "type": "String",
+        "value": ""
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-06-22T01:38:30.8251847Z",
+    "duration": "PT23.9795952S",
+    "correlationId": "7b12ce56-1ade-45dc-8854-7ed39cbbd7dd",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/e2d166cb-0ecb-4d79-92eb-d8545d32ce66/resourceGroups/metabasedocker/providers/Microsoft.Web/sites/metabaseenviroment"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
