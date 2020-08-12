@@ -1,1 +1,23 @@
 
+Este Projeto tem por objetivo utilazar o metabase  e subir para a nuvem, neste caso utilizei o azure para fazer o deploy. 
+Além disso, este trabalho envolveu testar habilidades de DevOps. 
+1. Informações necessárias:
+Link da aplicação : https://metabaseenviroment.azurewebsites.net/dashboard/1
+2. Implantando o Metabase na nuvem com uso do Azure
+
+A implantação do Metabase através do Azure foi utilizada pelos seguintes motivos:
+Rápida instalação
+Utilização do Docker container
+Versionamento de código através do GitHub
+CI/CD gerenciado em uma única plataforma
+Criação e utilização de um banco de dados SQL server de maneira fácil e que qualquer
+alteração seja refletida de maneira automática.
+Como extra temos todos os serviços da AzureDevops integrados em um único lugar.
+
+2.1
+Iniciando a implantação:
+Antes de começar a implantação escolhi utilizar o Docker, pois o Docker já possui um
+container (imagem) do Metabase, com o Azure é simples de usar, pois basta você criar um
+aplicativo web no Azure para utilizar o container.
+Além disso vinculamos o aplicativo ao Azure Devops onde podemos usar recurso de CI/CD
+com as piplines, utilizar o GitHub para versionamento de código entre outros serviços.
